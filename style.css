@@ -1,0 +1,16 @@
+/* Styling for all html files */
+.backdrop {
+    background-color: rgb(127, 255, 212);
+}
+
+.recipe-card {
+    background-color: #f0f8ff;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+}
+
+.menu,
+.ingredients {
+    list-style-type: none;
+}
