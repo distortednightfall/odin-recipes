@@ -1,10 +1,10 @@
 /* Styling for all html files */
 .backdrop {
-    background-color: rgb(127, 255, 212);
+    background-color: rgb(21, 245, 186);
 }
 
 .recipe-card {
-    background-color: #f0f8ff;
+    background-color: #F0F3FF;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -12,4 +12,25 @@
 .menu,
 .ingredients {
     list-style-type: none;
+}
+
+/* Index.html css */
+.title {
+    font-size: 60px;
+    color: #836FFF;
+}
+.front-gif {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+}
+
+.menu {
+    font-size: 30px;
+    color: #211951;
+    font-weight: bold;
+}
+
+.menu a {
+    text-decoration: none;
 }
