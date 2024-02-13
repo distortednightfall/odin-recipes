@@ -26,6 +26,11 @@
     color: #211951;
 }
 
+.front-gif,
+.food-pic {
+    border-radius: 10px; 
+}
+
 /* Index.html css */
 
 .title {
@@ -35,7 +40,6 @@
 .front-gif {
     width: auto;
     height: auto;
-    border-radius: 10px;
 }
 
 .menu {
