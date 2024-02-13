@@ -1,10 +1,11 @@
 /* Styling for all html files */
+
 .backdrop {
     background-color: rgb(21, 245, 186);
 }
 
 .recipe-card {
-    background-color: #F0F3FF;
+    background-color: hsl(228, 100%, 97%);
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -14,11 +15,23 @@
     list-style-type: none;
 }
 
-/* Index.html css */
-.title {
-    font-size: 60px;
+.title,
+.header,
+.subheader {
     color: #836FFF;
 }
+
+.menu,
+.text {
+    color: #211951;
+}
+
+/* Index.html css */
+
+.title {
+    font-size: 60px;
+}
+
 .front-gif {
     width: auto;
     height: auto;
@@ -27,10 +40,28 @@
 
 .menu {
     font-size: 30px;
-    color: #211951;
     font-weight: bold;
 }
 
 .menu a {
     text-decoration: none;
+}
+
+/* recipe html files */
+
+.header {
+    font-size: 45px;
+}
+
+.subheader {
+    font-size: 30px;
+}
+
+.food-pic {
+    width: 525px;
+    height: auto;
+}
+
+.text {
+    font-size: 20px;
 }
